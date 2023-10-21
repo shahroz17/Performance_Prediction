@@ -1,6 +1,6 @@
 import sys    #provides various function and variables that are used to manipulate different part of runtime envirmnet
 
-import logging
+from src.logger import logging
 
 
 def error_message_detail(error,error_detail:sys): # own coustom error
